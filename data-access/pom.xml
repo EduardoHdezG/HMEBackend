@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>mx.com.telcel.di.sds.gsac.darte.integradora</groupId>
+    	<artifactId>integradora</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>integradora-data-access</artifactId>
+	<packaging>jar</packaging>
+	<name>integradora Data Access</name>
+
+	<dependencies>
+		<dependency>
+			<groupId>mx.com.telcel.di.sds.gsac.darte.integradora</groupId>
+			<artifactId>integradora-model</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>mx.com.telcel.di.sds.gsac.darte.integradora</groupId>
+			<artifactId>integradora-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+</project>

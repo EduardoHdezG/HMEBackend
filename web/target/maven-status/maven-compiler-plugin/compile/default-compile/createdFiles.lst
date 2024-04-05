@@ -1,0 +1,5 @@
+mx\com\integradora\web\controller\Expedienteservice.class
+mx\com\integradora\web\controller\PreguntaController.class
+mx\com\integradora\web\configuration\ApplicationStart.class
+mx\com\integradora\web\controller\EnfermedadController.class
+mx\com\integradora\web\controller\PersonaController.class

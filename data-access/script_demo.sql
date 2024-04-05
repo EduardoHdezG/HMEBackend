@@ -1,0 +1,28 @@
+/**
+ * Generacion de Arquetipos / Script para ejecutar la demostracion del recurso PERSONA
+ *
+ * Manejador de BD: 		Oracle 11g / 12c
+ * Nombre de la tabla: 		EJEM_PERSONA
+ * Nombre de la secuencia: 	EJEM_PERSONA_SEQ
+ * 
+ */
+ 
+CREATE TABLE EJEM_PERSONA
+(	"ID_PERSONA" NUMBER(10,0) NOT NULL, 
+	"NOMBRE" VARCHAR2(40) NOT NULL, 
+	"APELLIDO_PATERNO" VARCHAR2(40) NOT NULL, 
+	"APELLIDO_MATERNO" VARCHAR2(40), 
+	"FECHA_REGISTRO" DATE NOT NULL, 
+	"ESTATUS" NUMBER(10,0) NOT NULL, 
+		CONSTRAINT 
+	"PERSONA_PK" 
+		PRIMARY KEY ("ID_PERSONA")
+);
+
+CREATE SEQUENCE EJEM_PERSONA_SEQ
+	START WITH 1
+	INCREMENT BY 1
+	NOCACHE
+	NOCYCLE
+; 
+
